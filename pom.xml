@@ -11,8 +11,11 @@
 	<name>gesEnsup</name>
 
 	<modules>
-        <module>gesEnsup-domaine</module>
-    </modules>
+		<module>gesEnsup-domaine</module>
+		<module>gesEnsup-service</module>
+		<module>gesEnsup-dao</module>
+		<module>gesEnsup-web</module>
+	</modules>
 
 	<!--  FIXME change it to the project's website  -->
 	<url>http://www.example.com</url>
@@ -106,10 +109,4 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	<modules>
-		<module>gesEnsup-domaine</module>
-		<module>gesEnsup-service</module>
-		<module>gesEnsup-dao</module>
-		<module>gesEnsup-web</module>
-	</modules>
 </project>

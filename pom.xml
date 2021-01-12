@@ -9,14 +9,16 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>gesEnsup</name>
-
-	<modules>
-		<module>gesEnsup-domaine</module>
-		<module>gesEnsup-service</module>
-		<module>gesEnsup-dao</module>
-		<module>gesEnsup-web</module>
-	</modules>
-
+	<profiles>
+		<profile>
+			<modules>
+				<module>gesEnsup-domaine</module>
+				<module>gesEnsup-service</module>
+				<module>gesEnsup-dao</module>
+				<module>gesEnsup-web</module>
+			</modules>
+		</profile>
+	</profiles>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
